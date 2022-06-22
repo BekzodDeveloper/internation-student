@@ -647,6 +647,14 @@ body {
 }
 
 @media (max-width: 768px) {
+  .marks-table__thread-tr th {
+    height: 50px;
+    background-color: #d9d9d970;
+  }
+  .marks-table__tbody td {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
   .marks-list .container,
   .marks-table .container {
     padding: 0 5px;
@@ -673,7 +681,6 @@ body {
   .marks-list__years {
     margin-bottom: 15px;
     margin-right: 0;
-    width: 100%;
     max-width: 339px;
   }
   .marks-list__years-item:first-child .marks-list__years-link {
@@ -686,9 +693,6 @@ body {
     border-top-left-radius: 0px;
     border-bottom-left-radius: 8px;
     text-align: right;
-  }
-  .marks-list__years-item:last-child .marks-list__years-link {
-    border-top-right-radius: 0px;
   }
   .marks-list__years-link {
     font-size: 16px;
@@ -718,6 +722,9 @@ body {
   .marks-list__months-item:last-child .marks-list__months-link {
     border-top-right-radius: 0px;
     padding-right: 20px;
+  }
+  .marks-list__months-item:nth-child(-n+6) {
+    border-bottom: 1px solid #DCDCDC;
   }
   .marks-list__months-link {
     font-size: 15px;
@@ -794,10 +801,15 @@ body {
   .stat .swiper-button.swiper-button-prev {
     left: 15%;
   }
+  .functions .container {
+    padding: 0 10px;
+  }
   .functions__list {
     -ms-grid-columns: (1fr)[4];
         grid-template-columns: repeat(4, 1fr);
-    grid-gap: 17px;
+    grid-gap: 10px;
+    display: -ms-grid;
+    display: grid;
   }
   .functions__item-link {
     width: 77px;
