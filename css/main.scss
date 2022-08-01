@@ -2,7 +2,11 @@
 @import "global";
 
 .header {
-  margin-top: 18px;
+  max-width: 1920px;
+  margin: 18px auto 0;
+  &__container{
+    padding: 0 15px;
+  }
   &__inner {
     display: flex;
     justify-content: space-between;
@@ -10,6 +14,7 @@
     padding: 20px;
     background-color: #ffcf00;
     border-radius: 8px;
+  
   }
 }
 .section {
@@ -76,9 +81,9 @@
   margin-top: 30px;
   margin-bottom: 30px;
   .swiper-stat {
-    margin-top: 20px;
     overflow-x: hidden;
-    padding: 0 22px 20px;
+    padding: 10px 5px 20px;
+    margin: 20px 47px 0;
   }
   &__inner {
     padding: 30px 21px 50px;
@@ -150,6 +155,7 @@
     }
   }
   .swiper-pagination-bullet {
+    display: none;
     width: 25px;
     border-radius: 2px;
     height: 5px;
@@ -160,33 +166,33 @@
 }
 .functions {
   &__list {
-    padding-top: 30px;
     padding-bottom: 30px;
     display: flex;
-    grid-template-columns: repeat(9, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     grid-gap: 30px;
     flex-wrap: wrap;
+    justify-content: center;
   }
   &__item {
-    max-width: 128px;
-    margin-bottom: 10px;
+    max-width: 100%;
   }
   &__item-link {
-    width: 128px;
-    height: 128px;
+    width: 293px;
+    height: 180px;
     background: #ffffff;
     box-shadow: 0px 0px 10px rgba(79, 79, 79, 0.25);
     border-radius: 12px;
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
   }
   &__item-title {
     text-align: center;
     font-size: 14px;
     line-height: 14px;
     color: #000000;
-    margin-top: 11px;
+    margin-top: 16px;
   }
 }
 

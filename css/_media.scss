@@ -1,9 +1,9 @@
 @media (max-width: 768px) {
-  .marks-table__thread-tr th{
+  .marks-table__thread-tr th {
     height: 50px;
-        background-color: #d9d9d970;
+    background-color: #d9d9d970;
   }
-  .marks-table__tbody td{
+  .marks-table__tbody td {
     padding-top: 10px;
     padding-bottom: 10px;
   }
@@ -73,8 +73,8 @@
       border-top-right-radius: 0px;
       padding-right: 20px;
     }
-    &:nth-child(-n+6) {
-      border-bottom: 1px solid #DCDCDC;
+    &:nth-child(-n + 6) {
+      border-bottom: 1px solid #dcdcdc;
     }
   }
   .marks-list__months-link {
@@ -83,7 +83,6 @@
     width: 100%;
     text-align: center;
     padding: 10px 10px;
-
   }
 }
 @media (max-width: 425px) {
@@ -124,6 +123,7 @@
   .stat .swiper-stat {
     padding-left: 5px;
     padding-right: 5px;
+    margin: 20px 0 0;
   }
   .stat__item-title {
     font-size: 24px;
@@ -152,17 +152,19 @@
       left: 15%;
     }
   }
-  .functions .container{
-    padding: 0 10px;  
+  .functions .container {
+    padding: 0 10px;
   }
   .functions__list {
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     grid-gap: 10px;
     display: grid;
+    padding: 0 8px 50px;
   }
   .functions__item-link {
-    width: 77px;
-    height: 77px;
+    width: 100%;
+    height: 120px;
+    box-shadow: 0px 4px 8px rgba(79, 79, 79, 0.15);
     img {
       width: 40px;
     }
