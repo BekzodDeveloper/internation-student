@@ -235,8 +235,8 @@ body {
 }
 
 .stat__item-icon {
-  width: 55px;
-  height: 55px;
+  width: 70px;
+  height: 70px;
 }
 
 .stat__item-title {
@@ -244,7 +244,7 @@ body {
   font-size: 36px;
   line-height: 44px;
   color: #000000;
-  padding: 20px 5px;
+  padding: 10px 5px 0;
 }
 
 .stat__item-text {
@@ -253,6 +253,22 @@ body {
   line-height: 24px;
   color: #000000;
   padding: 0 5px;
+}
+
+.stat__item-text-name {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  padding-top: 20px;
+}
+
+.stat__item-debt {
+  background: #ea5455;
+  border-radius: 9px;
+  color: #fff;
+  font-size: 16px;
+  line-height: 20px;
+  padding: 4px 25px 5px;
 }
 
 .stat .swiper-button {

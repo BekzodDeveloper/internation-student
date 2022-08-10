@@ -4,7 +4,7 @@
 .header {
   max-width: 1920px;
   margin: 18px auto 0;
-  &__container{
+  &__container {
     padding: 0 15px;
   }
   &__inner {
@@ -14,7 +14,6 @@
     padding: 20px;
     background-color: #ffcf00;
     border-radius: 8px;
-  
   }
 }
 .section {
@@ -107,15 +106,15 @@
     align-items: center;
   }
   &__item-icon {
-    width: 55px;
-    height: 55px;
+    width: 70px;
+    height: 70px;
   }
   &__item-title {
     font-weight: 600;
     font-size: 36px;
     line-height: 44px;
     color: #000000;
-    padding: 20px 5px;
+    padding: 10px 5px 0;
   }
   &__item-text {
     font-weight: 400;
@@ -123,7 +122,22 @@
     line-height: 24px;
     color: #000000;
     padding: 0 5px;
+    &-name {
+      font-weight: 500;
+      font-size: 20px;
+      line-height: 24px;
+      padding-top: 20px;
+    }
   }
+  &__item-debt {
+    background: #ea5455;
+    border-radius: 9px;
+    color: #fff;
+    font-size: 16px;
+    line-height: 20px;
+    padding: 4px 25px 5px;
+  }
+
   .swiper-button {
     background-repeat: no-repeat;
     width: 40px;
@@ -195,7 +209,6 @@
     margin-top: 16px;
   }
 }
-
 
 @import "mymarks";
 @import "media";
