@@ -1,6 +1,20 @@
 @import "reset";
 @import "global";
 
+.dflex {
+  display: flex;
+}
+.dflex-jcsb-aic {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.dflex-jcc-aic {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .header {
   max-width: 1920px;
   margin: 18px auto 0;
@@ -8,9 +22,6 @@
     padding: 0 15px;
   }
   &__inner {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
     padding: 20px;
     background-color: #ffcf00;
     border-radius: 8px;
@@ -27,12 +38,6 @@
 }
 
 .account {
-  &__list {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    // width: 100%;
-  }
   &__item {
     padding-right: 30px;
   }
@@ -65,9 +70,6 @@
     width: 58px;
     height: 58px;
     border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
   }
   &__link-name {
     font-weight: 500;
@@ -100,10 +102,7 @@
     text-align: center;
     font-size: 18px;
     background: #fff;
-    display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
   }
   &__item-icon {
     width: 70px;
@@ -181,7 +180,6 @@
 .functions {
   &__list {
     padding-bottom: 30px;
-    display: flex;
     grid-template-columns: repeat(4, 1fr);
     grid-gap: 30px;
     flex-wrap: wrap;
@@ -196,9 +194,6 @@
     background: #ffffff;
     box-shadow: 0px 0px 10px rgba(79, 79, 79, 0.25);
     border-radius: 12px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     flex-direction: column;
   }
   &__item-title {
@@ -211,4 +206,5 @@
 }
 
 @import "mymarks";
+@import "library";
 @import "media";

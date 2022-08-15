@@ -1,4 +1,6 @@
+
 @media (max-width: 768px) {
+  
   .marks-table__thread-tr th {
     height: 50px;
     background-color: #d9d9d970;
@@ -84,8 +86,6 @@
     text-align: center;
     padding: 10px 10px;
   }
-}
-@media (max-width: 425px) {
   .title {
     font-weight: 500;
     font-size: 14px;
@@ -135,7 +135,7 @@
     font-size: 12px;
   }
   .stat__item-debt {
-   font-size: 11px !important;
+    font-size: 11px !important;
     line-height: 16px;
     padding: 4px 7px;
   }
@@ -172,6 +172,31 @@
     box-shadow: 0px 4px 8px rgba(79, 79, 79, 0.15);
     img {
       width: 40px;
+    }
+  }
+
+  // page-library
+  .page-library__top{
+    flex-direction: column;
+    padding-bottom: 40px;
+  }
+  .page-library__back{
+    margin-bottom: 40px;
+    align-self: flex-start;
+    padding: 11px 34px 12px;
+    font-size: 16px;
+  }
+  .page-library__list{
+    text-align: center;
+  }
+  .page-library__list-item{
+    padding: 30px;
+    img{
+      width: 50px;
+    }
+    span{
+      font-size: 20px;
+      line-height: 24px;
     }
   }
 }
