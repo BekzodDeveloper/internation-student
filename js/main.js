@@ -51,3 +51,10 @@ var swiper1 = new Swiper(".swiper-stat", {
     },
   }, //   });
 });
+
+const accountLinkProfile = document.querySelector(".account__link-profile");
+const accountModal = document.querySelector(".account__modal");
+
+accountLinkProfile.addEventListener("click", function () {
+  accountModal.classList.toggle("account__modal--open");
+});

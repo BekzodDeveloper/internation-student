@@ -1,6 +1,4 @@
-
 @media (max-width: 768px) {
-  
   .marks-table__thread-tr th {
     height: 50px;
     background-color: #d9d9d970;
@@ -176,25 +174,25 @@
   }
 
   // page-library
-  .page-library__top{
+  .page-library__top {
     flex-direction: column;
     padding-bottom: 40px;
   }
-  .page-library__back{
+  .page-library__back {
     margin-bottom: 40px;
     align-self: flex-start;
     padding: 11px 34px 12px;
     font-size: 16px;
   }
-  .page-library__list{
+  .page-library__list {
     text-align: center;
   }
-  .page-library__list-item{
+  .page-library__list-item {
     padding: 30px;
-    img{
+    img {
       width: 50px;
     }
-    span{
+    span {
       font-size: 20px;
       line-height: 24px;
     }

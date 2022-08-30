@@ -138,17 +138,7 @@ a {
   padding: 20px;
   background-color: #ffcf00;
   border-radius: 8px;
-}
-
-.section {
-  margin-top: 164px;
-}
-
-.title {
-  font-weight: 400;
-  font-size: 24px;
-  line-height: 29px;
-  color: #000000;
+  position: relative;
 }
 
 .account__item {
@@ -157,6 +147,10 @@ a {
 
 .account__item:last-child {
   padding-right: 0px;
+}
+
+.account__item-photo {
+  position: relative;
 }
 
 .account__link-notif {
@@ -194,6 +188,116 @@ a {
   font-size: 20px;
   line-height: 24px;
   color: #373435;
+}
+
+.account__modal {
+  max-width: 218px;
+  width: 100%;
+  padding: 20px 20px 10px;
+  text-align: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background: #ffffff;
+  -webkit-box-shadow: 0px 4px 10px rgba(79, 79, 79, 0.25);
+          box-shadow: 0px 4px 10px rgba(79, 79, 79, 0.25);
+  border-radius: 12px;
+  position: absolute;
+  right: 0;
+  z-index: 10;
+  top: 98px;
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transition: ease 0.3s;
+  transition: ease 0.3s;
+}
+
+.account__modal--open {
+  visibility: visible;
+  opacity: 1;
+  -webkit-transition: ease 0.3s;
+  transition: ease 0.3s;
+}
+
+.account__modal .account__link-profile {
+  position: relative;
+}
+
+.account__modal .account__link-profile::after {
+  position: absolute;
+  right: -10px;
+  top: -10px;
+  content: "";
+  background-image: url("../images/header/karandash.svg");
+  width: 25px;
+  height: 25px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.account__modal-pswrd {
+  font-size: 14px;
+  line-height: 17px;
+  background: #ffffff;
+  -webkit-box-shadow: 0px 4px 10px rgba(79, 79, 79, 0.25);
+          box-shadow: 0px 4px 10px rgba(79, 79, 79, 0.25);
+  border-radius: 12px;
+  padding: 10px 20px 11px;
+  margin: 10px 0 15px;
+}
+
+.account__modal-logout {
+  background: #fe3232;
+  -webkit-box-shadow: 0px 4px 10px rgba(79, 79, 79, 0.25);
+          box-shadow: 0px 4px 10px rgba(79, 79, 79, 0.25);
+  border-radius: 12px;
+  font-size: 14px;
+  line-height: 17px;
+  color: #ffffff;
+  padding: 5px 28px 6px;
+}
+
+@media (max-width: 768px) {
+  .header {
+    margin-top: 7px;
+  }
+  .header .container {
+    padding-right: 5px;
+    padding-left: 5px;
+  }
+  .header__inner {
+    padding: 5px 10px;
+  }
+  .logo {
+    width: 140px;
+  }
+  .account__link-name {
+    display: none;
+  }
+  .account__item {
+    padding-right: 12px;
+  }
+  .account__link-profile {
+    font-size: 26px;
+    line-height: 32px;
+    width: 50px;
+    height: 50px;
+  }
+  .account__modal {
+    top: 60px;
+  }
+}
+
+.section {
+  margin-top: 164px;
+}
+
+.title {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  color: #000000;
 }
 
 .stat {
