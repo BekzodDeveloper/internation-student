@@ -1,5 +1,5 @@
 .page-library {
-  background-image: url("./../images/lib-bg.png");
+  background-image: url("./../images/library/lib-bg.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -29,8 +29,8 @@
       color: #373435;
     }
   }
-  &__empty{
-    padding:25px;
+  &__empty {
+    padding: 25px;
   }
   &__title {
     font-weight: 600;
@@ -39,10 +39,6 @@
     span {
       padding-right: 12px;
     }
-  }
-  &__body {
-  }
-  &__list {
   }
   &__list-item {
     background: #ffffff;
@@ -62,6 +58,75 @@
       display: inline-block;
     }
   }
-}
-.container {
+  &__weekly-asgmt {
+    background-image: none;
+  }
+  &__stairs {
+    text-align: center;
+  }
+  &__weeks-list {
+    margin-top: 20px;
+  }
+  &__weeks-item {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    background: #ffffff;
+    box-shadow: 0px 0px 10px rgba(79, 79, 79, 0.25);
+    border-radius: 12px;
+    color: #2b2a29;
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+    padding: 25px;
+    margin-bottom: 15px;
+  }
+  &__week {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    grid-gap: 50px;
+    color: #373435;
+    // flex-wrap: wrap;
+  }
+  &__week-item {
+    max-width: 45%;
+    width: 100%;
+  }
+  &__week-title {
+    margin-bottom: 20px;
+  }
+  &__week-audio {
+    background: #ffffff;
+    box-shadow: 0px 0px 10px rgba(79, 79, 79, 0.25);
+    border-radius: 12px;
+    max-width: 645px;
+    padding: 20px;
+    width: 100%;
+  }
+  &__week-video {
+  }
+  &__week-video-src{
+    margin-bottom: 20px;
+  }
+  &__week-video-inner {
+  }
+  &__week-video-play {
+    background: #ffffff;
+    box-shadow: 0px 0px 10px rgba(79, 79, 79, 0.25);
+    border-radius: 12px;
+    padding: 20px;
+    max-width: 325px;
+    width: 100%;
+    margin-right: 10px;
+  }
+  &__week-video-dwld {
+    background: #ffffff;
+    box-shadow: 0px 0px 10px rgba(79, 79, 79, 0.25);
+    border-radius: 12px;
+    padding: 20px;
+    max-width: 325px;
+    width: 100%;
+    margin-left: 10px;
+  }
 }
