@@ -201,6 +201,7 @@
     width: 340px;
     height: auto;
   }
+
   .hw-accordions .tab-label {
     padding: 10px 10px 0px 10px;
   }
@@ -209,7 +210,100 @@
     padding-right: 0;
     flex-wrap: wrap;
   }
-  .hw-accordions .tab__item-pdf{
+  .hw-accordions .tab__item-pdf {
     margin: 10px 0;
+  }
+  .page-library__title {
+    img {
+      width: 40px;
+    }
+  }
+  .page-library__week-item {
+    max-width: 100%;
+  }
+  .page-library__week-video-play,
+  .page-library__week-video-dwld {
+    padding: 20px 10px;
+    img {
+      width: 20px;
+    }
+  }
+  .page-library__stairs-title {
+    font-size: 10px;
+    line-height: 20px;
+    grid-gap: 10px;
+    & > img {
+      width: 12px;
+    }
+    &.level-1 {
+      bottom: 10px;
+      left: 100px;
+      flex-direction: row-reverse;
+    }
+    &.level-2 {
+      bottom: 53px;
+      left: 147px;
+    }
+    &.level-3 {
+      bottom: 105px;
+      left: 190px;
+      flex-direction: row-reverse;
+    }
+    &.level-4 {
+      bottom: 195px;
+      left: 28px;
+      flex-direction: row-reverse;
+    }
+    &.level-5 {
+      bottom: 243px;
+      left: 60px;
+    }
+    &.level-6 {
+      bottom: 288px;
+      left: 210px;
+      flex-direction: row-reverse;
+    }
+  }
+
+  .video-lessons {
+    &__item {
+      max-width: 100%;
+    }
+    &__title {
+      margin-bottom: 30px;
+    }
+  }
+  .books-lessons__books-list {
+    justify-content: center;
+  }
+  .books-lessons__audio-unit {
+    max-width: 100%;
+  }
+
+  .profile {
+    &__inner {
+      flex-wrap: wrap;
+    }
+    &__content {
+      max-width: 100%;
+    }
+    &__content-inner {
+      grid-gap: 20px;
+      flex-wrap: wrap;
+    }
+    &__img {
+      padding: 20px;
+    }
+  }
+  .modal-office-hours {
+    &__content {
+      padding: 20px 10px 40px;
+    }
+    &__list-item {
+      padding: 5px;
+    }
+    &__list-item:nth-child(3){
+      flex-direction: column;
+    }
   }
 }

@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Inter Nation Student</title>
+    <link rel="icon" type="image/x-icon" href="images/logo.ico" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
+    />
+
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
+
+  <body>
+    <header class="header">
+      <div class="header__container">
+        <div class="dflex-jcsb-aic header__inner">
+          <div class="logo">
+            <a class="logo__link" href="/"
+              ><img src="images/header/logo.svg" alt="Logo" class="logo__img"
+            /></a>
+          </div>
+          <div class="account">
+            <div class="dflex-jcsb-aic account__list">
+              <div class="account__item">
+                <a class="account__link-notif" href="#">
+                  <img src="images/header/notif.svg" alt="notif" />
+                  <span>3</span>
+                </a>
+              </div>
+              <div class="account__item">
+                <p class="account__link-name">Robiya J.</p>
+              </div>
+              <div class="account__item account__item-photo">
+                <a class="dflex-jcc-aic account__link-profile" href="#"> R </a>
+              </div>
+            </div>
+          </div>
+          <div class="dflex-jcc-aic account__modal">
+            <a class="dflex-jcc-aic account__link-profile" href="#"> R </a>
+            <a class="dflex-jcc-aic account__modal-pswrd" href="#">
+              Change password
+            </a>
+            <a class="dflex-jcc-aic account__modal-logout" href="#"> LOGOUT </a>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <div class="modal-office-hours">
+      <div class="container">
+        <div class="modal-office-hours__content">
+          <div class="dflex-jcsb-aic modal-office-hours__top">
+            <p class="modal-office-hours__title">Office Hour</p>
+            <img
+              class="modal-office-hours__top-close modal-close-btn"
+              src="images/modal-close.svg"
+              alt=""
+            />
+          </div>
+          <div class="modal-office-hours__body">
+            <div class="dgrid modal-office-hours__list">
+              <p class="modal-office-hours__body-title">Full name</p>
+              <p class="modal-office-hours__body-title">Iphone</p>
+              <p class="modal-office-hours__body-title">Note</p>
+            </div>
+            <div class="dgrid modal-office-hours__list">
+              <div class="modal-office-hours__list-item">
+                <p class="modal-office-hours__item-text">Aziza Abdurahmonova</p>
+              </div>
+              <div class="modal-office-hours__list-item">
+                <p class="modal-office-hours__item-text">
+                  +99890 999-99-99 Own; +99897 999-99-99 Home; +99899 111-11-11
+                  Parents;
+                </p>
+              </div>
+              <div class="dflex-jcsb-aic modal-office-hours__list-item">
+                <p class="modal-office-hours__item-text">
+                  I need extra office hours to reverw my Grammar
+                </p>
+                <div class="modal-office-hours__item-btns">
+                  <button
+                    class="modal-office-hours__item-btn modal-office-hours__item-btn-reject"
+                  >
+                    Reject
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="modal-office-hours__bottom">
+            <button
+              class="modal-office-hours__bottom-btn modal-office-hours__bottom-btn-approve"
+            >
+              Approve
+            </button>
+            <button
+              class="modal-office-hours__bottom-btn modal-office-hours__bottom-btn-approve-all"
+            >
+              Approve All
+            </button>
+            <button
+              class="modal-close-btn modal-office-hours__bottom-btn modal-office-hours__bottom-btn-close"
+            >
+              Close
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+   
+    <div class="wrapper">
+      <main class="main">
+        <section class="profile">
+          <div class="container">
+            <div class="dflex-jcsb profile__inner">
+              <div class="profile__img">
+                <img src="images/profile-photo.png" alt="photo" />
+              </div>
+              <div class="profile__content">
+                <p class="profile__title">Rustam Karimov</p>
+                <div class="dflex profile__content-inner">
+                  <div class="profile__content-block">
+                    <p class="profile__content-block-title">Certificates:</p>
+                    <p class="profile__content-block-text">
+                      Westminster International University in Tashkent, 300,
+                      16/09/2019, Business Management with Marketing ,
+                      25/05/2023
+                    </p>
+                  </div>
+                  <div class="profile__content-block">
+                    <p class="profile__content-block-title">EDUCTION:</p>
+                    <p class="profile__content-block-text">
+                      Westminster International University in Tashkent, 300,
+                      16/09/2019, Business Management with Marketing ,
+                      25/05/2023
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="extra-lessons">
+          <div class="container">
+            <div class="extra-lessons__inner">
+              <table class="extra-lessons__table">
+                <thead class="extra-lessons__thead">
+                  <th class="extra-lessons__th">time schedule</th>
+                  <th class="extra-lessons__th"><p>monday</p></th>
+                  <th class="extra-lessons__th"><p>tuesday</p></th>
+                  <th class="extra-lessons__th"><p>wednesday</p></th>
+                  <th class="extra-lessons__th"><p>thursday</p></th>
+                  <th class="extra-lessons__th"><p>friday</p></th>
+                  <th class="extra-lessons__th"><p>saturday</p></th>
+                  <th class="extra-lessons__th"><p>sunday</p></th>
+                </thead>
+                <tbody class="extra-lessons__tbody">
+                  <tr class="extra-lessons__tr">
+                    <td class="extra-lessons__td">14:00</td>
+                    <td
+                      class="extra-lessons__td"
+                      style="
+                        border-top: none;
+                        border-right: none;
+                        background-color: rgba(217, 217, 217, 0.35);
+                        cursor: default;
+                      "
+                      colspan="7"
+                    ></td>
+                  </tr>
+                  <tr class="extra-lessons__tr">
+                    <td class="extra-lessons__td">14:30</td>
+                    <td class="extra-lessons__td office-hours-btn">
+                      <div class="extra-lessons__new-student">
+                        Samira Azimjonva
+                      </div>
+                    </td>
+                    <td class="extra-lessons__td office-hours-btn">
+                      <div class="extra-lessons__empty-item">Empty</div>
+                    </td>
+                    <td class="extra-lessons__td office-hours-btn">
+                      <div class="extra-lessons__empty-item">Empty</div>
+                    </td>
+                    <td class="extra-lessons__td office-hours-btn">
+                      <div class="extra-lessons__empty-item">Empty</div>
+                    </td>
+                    <td class="extra-lessons__td office-hours-btn">
+                      <div class="extra-lessons__empty-item">Empty</div>
+                    </td>
+
+                    <td class="extra-lessons__td office-hours-btn">
+                      <div class="extra-lessons__new-student">
+                        Samira Azimjonva
+                      </div>
+                      <div class="extra-lessons__new-student">
+                        Samira Azimjonva
+                      </div>
+                    </td>
+                    <td class="extra-lessons__td office-hours-btn">
+                      <div class="extra-lessons__empty-item">Empty</div>
+                    </td>
+                  </tr>
+                  <tr class="extra-lessons__tr">
+                    <td class="extra-lessons__td">15:00</td>
+                    <td class="extra-lessons__td">
+                      <div class="extra-lessons__requested">Not viewed</div>
+                    </td>
+                    <td class="extra-lessons__td office-hours-btn">
+                      <div class="extra-lessons__empty-item">Empty</div>
+                    </td>
+
+                    <td class="extra-lessons__td office-hours-btn">
+                      <div class="extra-lessons__new-student">
+                        Samira Azimjonva
+                      </div>
+                    </td>
+                    <td class="extra-lessons__td office-hours-btn">
+                      <div class="extra-lessons__empty-item">Empty</div>
+                    </td>
+                    <td class="extra-lessons__td office-hours-btn">
+                      <div class="extra-lessons__empty-item">Empty</div>
+                    </td>
+                    <td class="extra-lessons__td office-hours-btn">
+                      <div class="extra-lessons__empty-item">Empty</div>
+                    </td>
+                    <td class="extra-lessons__td office-hours-btn">
+                      <div class="extra-lessons__empty-item">Empty</div>
+                    </td>
+                  </tr>
+                  <tr class="extra-lessons__tr">
+                    <td class="extra-lessons__td">15:30</td>
+                    <td class="extra-lessons__td office-hours-btn">
+                      <div class="extra-lessons__empty-item">Empty</div>
+                    </td>
+                    <td class="extra-lessons__td office-hours-btn">
+                      <div class="extra-lessons__empty-item">Empty</div>
+                    </td>
+                    <td class="extra-lessons__td office-hours-btn">
+                      <div class="extra-lessons__empty-item">Empty</div>
+                    </td>
+                    <td class="extra-lessons__td office-hours-btn">
+                      <div class="extra-lessons__empty-item">Empty</div>
+                    </td>
+                    <td class="extra-lessons__td office-hours-btn">
+                      <div class="extra-lessons__empty-item">Empty</div>
+                    </td>
+                    <td class="extra-lessons__td office-hours-btn">
+                      <div class="extra-lessons__empty-item">Empty</div>
+                    </td>
+                    <td class="extra-lessons__td office-hours-btn">
+                      <div class="extra-lessons__empty-item">Empty</div>
+                    </td>
+                  </tr>
+                  <tr class="extra-lessons__tr">
+                    <td class="extra-lessons__td">16:00</td>
+
+                    <td class="extra-lessons__td office-hours-btn">
+                      <div class="extra-lessons__new-student">
+                        Samira Azimjonva
+                      </div>
+                    </td>
+                    <td class="extra-lessons__td office-hours-btn">
+                      <div class="extra-lessons__empty-item">Empty</div>
+                    </td>
+                    <td class="extra-lessons__td office-hours-btn">
+                      <div class="extra-lessons__empty-item">Empty</div>
+                    </td>
+                    <td class="extra-lessons__td office-hours-btn">
+                      <div class="extra-lessons__empty-item">Empty</div>
+                    </td>
+                    <td class="extra-lessons__td office-hours-btn">
+                      <div class="extra-lessons__empty-item">Empty</div>
+                    </td>
+                    <td class="extra-lessons__td office-hours-btn">
+                      <div class="extra-lessons__empty-item">Empty</div>
+                    </td>
+
+                    <td class="extra-lessons__td office-hours-btn">
+                      <div class="extra-lessons__new-student">
+                        Samira Azimjonva
+                      </div>
+                    </td>
+                  </tr>
+                  <tr class="extra-lessons__tr">
+                    <td class="extra-lessons__td">16:30</td>
+                    <td class="extra-lessons__td office-hours-btn">
+                      <div class="extra-lessons__empty-item">Empty</div>
+                    </td>
+                    <td class="extra-lessons__td office-hours-btn">
+                      <div class="extra-lessons__empty-item">Empty</div>
+                    </td>
+                    <td class="extra-lessons__td office-hours-btn">
+                      <div class="extra-lessons__empty-item">Empty</div>
+                    </td>
+                    <td class="extra-lessons__td office-hours-btn">
+                      <div class="extra-lessons__empty-item">Empty</div>
+                    </td>
+
+                    <td class="extra-lessons__td office-hours-btn">
+                      <div class="extra-lessons__new-student">
+                        Samira Azimjonva
+                      </div>
+                    </td>
+                    <td class="extra-lessons__td office-hours-btn">
+                      <div class="extra-lessons__empty-item">Empty</div>
+                    </td>
+                    <td class="extra-lessons__td office-hours-btn">
+                      <div class="extra-lessons__empty-item">Empty</div>
+                    </td>
+                  </tr>
+                  <tr class="extra-lessons__tr">
+                    <td class="extra-lessons__td">17:00</td>
+                    <td class="extra-lessons__td office-hours-btn">
+                      <div class="extra-lessons__empty-item">Empty</div>
+                    </td>
+                    <td class="extra-lessons__td office-hours-btn">
+                      <div class="extra-lessons__empty-item">Empty</div>
+                    </td>
+                    <td class="extra-lessons__td office-hours-btn">
+                      <div class="extra-lessons__empty-item">Empty</div>
+                    </td>
+                    <td class="extra-lessons__td office-hours-btn">
+                      <div class="extra-lessons__empty-item">Empty</div>
+                    </td>
+                    <td class="extra-lessons__td office-hours-btn">
+                      <div class="extra-lessons__empty-item">Empty</div>
+                    </td>
+                    <td class="extra-lessons__td office-hours-btn">
+                      <div class="extra-lessons__empty-item">Empty</div>
+                    </td>
+                    <td class="extra-lessons__td office-hours-btn">
+                      <div class="extra-lessons__empty-item">Empty</div>
+                    </td>
+                  </tr>
+                  <tr class="extra-lessons__tr">
+                    <td class="extra-lessons__td">17:30</td>
+                    <td class="extra-lessons__td office-hours-btn">
+                      <div class="extra-lessons__empty-item">Empty</div>
+                    </td>
+                    <td class="extra-lessons__td office-hours-btn">
+                      <div class="extra-lessons__empty-item">Empty</div>
+                    </td>
+                    <td class="extra-lessons__td office-hours-btn">
+                      <div class="extra-lessons__empty-item">Empty</div>
+                    </td>
+                    <td class="extra-lessons__td office-hours-btn">
+                      <div class="extra-lessons__empty-item">Empty</div>
+                    </td>
+                    <td class="extra-lessons__td office-hours-btn">
+                      <div class="extra-lessons__empty-item">Empty</div>
+                    </td>
+                    <td class="extra-lessons__td office-hours-btn">
+                      <div class="extra-lessons__empty-item">Empty</div>
+                    </td>
+                    <td class="extra-lessons__td office-hours-btn">
+                      <div class="extra-lessons__empty-item">Empty</div>
+                    </td>
+                  </tr>
+                  <tr class="extra-lessons__tr">
+                    <td class="extra-lessons__td">18:00</td>
+                    <td class="extra-lessons__td office-hours-btn">
+                      <div class="extra-lessons__empty-item">Empty</div>
+                    </td>
+                    <td class="extra-lessons__td office-hours-btn">
+                      <div class="extra-lessons__empty-item">Empty</div>
+                    </td>
+                    <td class="extra-lessons__td office-hours-btn">
+                      <div class="extra-lessons__empty-item">Empty</div>
+                    </td>
+
+                    <td class="extra-lessons__td office-hours-btn">
+                      <div class="extra-lessons__new-student">
+                        Samira Azimjonva
+                      </div>
+                    </td>
+                    <td class="extra-lessons__td office-hours-btn">
+                      <div class="extra-lessons__empty-item">Empty</div>
+                    </td>
+                    <td class="extra-lessons__td office-hours-btn">
+                      <div class="extra-lessons__empty-item">Empty</div>
+                    </td>
+                    <td class="extra-lessons__td office-hours-btn">
+                      <div class="extra-lessons__empty-item">Empty</div>
+                    </td>
+                  </tr>
+                  <tr class="extra-lessons__tr">
+                    <td class="extra-lessons__td">18:30</td>
+                    <td class="extra-lessons__td office-hours-btn">
+                      <div class="extra-lessons__empty-item">Empty</div>
+                    </td>
+                    <td class="extra-lessons__td office-hours-btn">
+                      <div class="extra-lessons__empty-item">Empty</div>
+                    </td>
+                    <td class="extra-lessons__td office-hours-btn">
+                      <div class="extra-lessons__empty-item">Empty</div>
+                    </td>
+                    <td class="extra-lessons__td office-hours-btn">
+                      <div class="extra-lessons__empty-item">Empty</div>
+                    </td>
+                    <td class="extra-lessons__td office-hours-btn">
+                      <div class="extra-lessons__empty-item">Empty</div>
+                    </td>
+                    <td class="extra-lessons__td office-hours-btn">
+                      <div class="extra-lessons__empty-item">Empty</div>
+                    </td>
+                    <td class="extra-lessons__td office-hours-btn">
+                      <div class="extra-lessons__empty-item">Empty</div>
+                    </td>
+                  </tr>
+                  <tr class="extra-lessons__tr">
+                    <td class="extra-lessons__td">19:00</td>
+
+                    <td class="extra-lessons__td office-hours-btn">
+                      <div class="extra-lessons__new-student">
+                        Samira Azimjonva
+                      </div>
+                    </td>
+                    <td class="extra-lessons__td office-hours-btn">
+                      <div class="extra-lessons__empty-item">Empty</div>
+                    </td>
+                    <td class="extra-lessons__td office-hours-btn">
+                      <div class="extra-lessons__empty-item">Empty</div>
+                    </td>
+                    <td class="extra-lessons__td office-hours-btn">
+                      <div class="extra-lessons__empty-item">Empty</div>
+                    </td>
+                    <td class="extra-lessons__td office-hours-btn">
+                      <div class="extra-lessons__empty-item">Empty</div>
+                    </td>
+                    <td class="extra-lessons__td office-hours-btn">
+                      <div class="extra-lessons__empty-item">Empty</div>
+                    </td>
+                    <td class="extra-lessons__td office-hours-btn">
+                      <div class="extra-lessons__empty-item">Empty</div>
+                    </td>
+                  </tr>
+                  <tr class="extra-lessons__tr">
+                    <td class="extra-lessons__td">19:30</td>
+                    <td class="extra-lessons__td office-hours-btn">
+                      <div class="extra-lessons__empty-item">Empty</div>
+                    </td>
+                    <td class="extra-lessons__td office-hours-btn">
+                      <div class="extra-lessons__empty-item">Empty</div>
+                    </td>
+                    <td class="extra-lessons__td office-hours-btn">
+                      <div class="extra-lessons__empty-item">Empty</div>
+                    </td>
+                    <td class="extra-lessons__td office-hours-btn">
+                      <div class="extra-lessons__empty-item">Empty</div>
+                    </td>
+                    <td class="extra-lessons__td office-hours-btn">
+                      <div class="extra-lessons__empty-item">Empty</div>
+                    </td>
+                    <td class="extra-lessons__td office-hours-btn">
+                      <div class="extra-lessons__empty-item">Empty</div>
+                    </td>
+                    <td class="extra-lessons__td office-hours-btn">
+                      <div class="extra-lessons__empty-item">Empty</div>
+                    </td>
+                  </tr>
+                  <tr class="extra-lessons__tr">
+                    <td class="extra-lessons__td">20:00</td>
+                    <td class="extra-lessons__td office-hours-btn">
+                      <div class="extra-lessons__empty-item">Empty</div>
+                    </td>
+                    <td class="extra-lessons__td office-hours-btn">
+                      <div class="extra-lessons__empty-item">Empty</div>
+                    </td>
+                    <td class="extra-lessons__td office-hours-btn">
+                      <div class="extra-lessons__empty-item">Empty</div>
+                    </td>
+
+                    <td class="extra-lessons__td office-hours-btn">
+                      <div class="extra-lessons__new-student">
+                        Samira Azimjonva
+                      </div>
+                    </td>
+                    <td class="extra-lessons__td office-hours-btn">
+                      <div class="extra-lessons__empty-item">Empty</div>
+                    </td>
+                    <td class="extra-lessons__td office-hours-btn">
+                      <div class="extra-lessons__empty-item">Empty</div>
+                    </td>
+                    <td class="extra-lessons__td office-hours-btn">
+                      <div class="extra-lessons__empty-item">Empty</div>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </section>
+      </main>
+      <footer class="footer"></footer>
+    </div>
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>

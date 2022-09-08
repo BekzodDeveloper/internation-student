@@ -629,6 +629,318 @@ a {
   color: rgba(0, 0, 0, 0.9);
 }
 
+.extra-lessons {
+  background-color: rgba(217, 217, 217, 0.35);
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.extra-lessons__inner {
+  padding: 50px 0;
+  overflow: auto;
+}
+
+.extra-lessons__table {
+  background: #fcfcfc;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.extra-lessons__th {
+  text-transform: capitalize;
+  max-width: 175px;
+}
+
+.extra-lessons__th:first-child {
+  padding: 0px 10px;
+}
+
+.extra-lessons__th p {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  background: #ffcf01;
+  -webkit-box-shadow: 0px 0px 9px rgba(0, 0, 0, 0.3);
+          box-shadow: 0px 0px 9px rgba(0, 0, 0, 0.3);
+  border-radius: 0px 0px 8px 8px;
+  padding: 16px 20px 17px 27px;
+  max-width: 175px;
+  width: 100%;
+  display: inline-block;
+}
+
+.extra-lessons__th:first-child {
+  border: 1px solid #e1e1e1;
+}
+
+.extra-lessons__th:first-child p {
+  border-radius: none;
+  background-color: #fff;
+}
+
+.extra-lessons__th:last-child p {
+  background: #fe3232;
+}
+
+.extra-lessons__tr .extra-lessons__td:first-child {
+  font-size: 20px;
+  line-height: 26px;
+  cursor: auto;
+}
+
+.extra-lessons__td {
+  -webkit-box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.05);
+          box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.05);
+  border: 1px solid #e1e1e1;
+  cursor: pointer;
+  padding: 5px;
+}
+
+.extra-lessons__new-student {
+  background: -webkit-gradient(linear, left bottom, left top, from(#51cd74), to(#51cd74)), #51cd74;
+  background: linear-gradient(0deg, #51cd74, #51cd74), #51cd74;
+  color: #fff;
+  margin-bottom: 5px;
+  padding: 5px;
+  border-radius: 5px;
+  font-weight: 600;
+}
+
+.extra-lessons__requested {
+  background: #ffcf01;
+  color: #fff;
+  margin-bottom: 5px;
+  padding: 6px;
+  border-radius: 5px;
+  font-weight: 600;
+}
+
+.extra-lessons__empty-item {
+  font-size: 16px;
+  line-height: 21px;
+}
+
+.profile {
+  margin-top: 90px;
+}
+
+.profile__inner {
+  background: -webkit-gradient(linear, left bottom, left top, from(#ffffff), to(#ffffff));
+  background: linear-gradient(0deg, #ffffff, #ffffff);
+  -webkit-box-shadow: 0px 4px 10px rgba(79, 79, 79, 0.25);
+          box-shadow: 0px 4px 10px rgba(79, 79, 79, 0.25);
+  border-radius: 12px;
+}
+
+.profile__img {
+  max-width: 330px;
+  width: 100%;
+  padding: 20px 0px 20px 20px;
+}
+
+.profile__content {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: rgba(0, 0, 0, 0.56);
+  padding: 20px;
+  max-width: 75%;
+  width: 100%;
+}
+
+.profile__title {
+  font-weight: 800;
+  font-size: 32px;
+  line-height: 39px;
+  color: #6e6e6e;
+  margin-bottom: 50px;
+}
+
+.profile__content-inner {
+  grid-gap: 50px;
+}
+
+.profile__content-block {
+  max-width: 450px;
+}
+
+.profile__content-block-title {
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 24px;
+  text-transform: uppercase;
+  margin-bottom: 28px;
+  color: #6f6f6f;
+}
+
+.modal-office-hours {
+  background: rgba(0, 0, 0, 0.5);
+  position: relative;
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  z-index: 100;
+  top: 0;
+  left: 0;
+  visibility: hidden;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  opacity: 0;
+}
+
+.modal-office-hours-show {
+  visibility: visible;
+  opacity: 1;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.modal-office-hours-hide {
+  visibility: hidden;
+  opacity: 0;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.modal-office-hours__content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  background: #ffffff;
+  border-radius: 38px;
+  padding: 30px 30px 50px;
+  max-width: 1410px;
+  width: 100%;
+}
+
+.modal-office-hours__top-close {
+  cursor: pointer;
+}
+
+.modal-office-hours__title {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  margin-bottom: 20px;
+  color: #6f6f6f;
+}
+
+.modal-office-hours__body {
+  overflow-x: auto;
+}
+
+.modal-office-hours__list {
+  grid-gap: 15px;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+.modal-office-hours__body-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: #6f6f6f;
+  margin-bottom: 20px;
+}
+
+.modal-office-hours__list-item {
+  background: #ffffff;
+  -webkit-box-shadow: 0px 0px 10px rgba(79, 79, 79, 0.25);
+          box-shadow: 0px 0px 10px rgba(79, 79, 79, 0.25);
+  border-radius: 8px;
+  padding: 18px;
+}
+
+.modal-office-hours__list-item:nth-child(1) {
+  border-left: 4px solid #51cd74;
+}
+
+.modal-office-hours__list-item:nth-child(2) {
+  border-left: 4px solid #ffcf00;
+}
+
+.modal-office-hours__list-item:nth-child(3) {
+  border-left: 4px solid #69c9ff;
+}
+
+.modal-office-hours__item-text {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: #6f6f6f;
+}
+
+.modal-office-hours__item-btn {
+  cursor: pointer;
+  background: -webkit-gradient(linear, left top, left bottom, from(#fe3232), to(#de0000));
+  background: linear-gradient(180deg, #fe3232 0%, #de0000 100%);
+  -webkit-box-shadow: 0px 0px 10px rgba(79, 79, 79, 0.25);
+          box-shadow: 0px 0px 10px rgba(79, 79, 79, 0.25);
+  border-radius: 8px;
+  padding: 8px 23px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #ffffff;
+  outline: none;
+  border: none;
+}
+
+.modal-office-hours__bottom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+  grid-gap: 10px;
+}
+
+.modal-office-hours__bottom-btn {
+  margin-top: 60px;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  padding: 8px 20px;
+  color: #ffffff;
+  outline: none;
+  border: none;
+}
+
+.modal-office-hours__bottom-btn-approve {
+  background: -webkit-gradient(linear, left top, left bottom, from(#51cd74), to(#4bc26c));
+  background: linear-gradient(180deg, #51cd74 0%, #4bc26c 100%);
+  -webkit-box-shadow: 0px 0px 10px rgba(79, 79, 79, 0.25);
+          box-shadow: 0px 0px 10px rgba(79, 79, 79, 0.25);
+  border-radius: 8px;
+}
+
+.modal-office-hours__bottom-btn-approve-all {
+  background: -webkit-gradient(linear, left top, left bottom, from(#51cd74), to(#4bc26c));
+  background: linear-gradient(180deg, #51cd74 0%, #4bc26c 100%);
+  -webkit-box-shadow: 0px 0px 10px rgba(79, 79, 79, 0.25);
+          box-shadow: 0px 0px 10px rgba(79, 79, 79, 0.25);
+  border-radius: 8px;
+}
+
+.modal-office-hours__bottom-btn-close {
+  background: #bbbbbb;
+  -webkit-box-shadow: 0px 0px 10px rgba(79, 79, 79, 0.25);
+          box-shadow: 0px 0px 10px rgba(79, 79, 79, 0.25);
+  border-radius: 8px;
+  color: #fff;
+}
+
+.modal-office-hours .dgrid {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 2fr 2fr;
+      grid-template-columns: 1fr 2fr 2fr;
+}
+
 .marks-list__inner {
   padding-top: 40px;
   padding-bottom: 40px;
@@ -985,6 +1297,7 @@ a {
   font-weight: 600;
   font-size: 24px;
   line-height: 29px;
+  color: #373737;
 }
 
 .page-library__title span {
@@ -1019,6 +1332,117 @@ a {
 
 .page-library__stairs {
   text-align: center;
+  position: relative;
+}
+
+.page-library__stairs-link:hover {
+  opacity: 0.8;
+}
+
+.page-library__stairs-link:hover ~ .level-2 {
+  opacity: 0.8;
+}
+
+.page-library .level-1:hover {
+  opacity: 0.8;
+}
+
+.page-library .level-1:hover ~ svg .stairs-link-1 {
+  opacity: 0.8;
+}
+
+.page-library .level-2:hover {
+  opacity: 0.8;
+}
+
+.page-library .level-2:hover ~ svg .stairs-link-2 {
+  opacity: 0.8;
+}
+
+.page-library .level-3:hover {
+  opacity: 0.8;
+}
+
+.page-library .level-3:hover ~ svg .stairs-link-3 {
+  opacity: 0.8;
+}
+
+.page-library .level-4:hover {
+  opacity: 0.8;
+}
+
+.page-library .level-4:hover ~ svg .stairs-link-4 {
+  opacity: 0.8;
+}
+
+.page-library .level-5:hover {
+  opacity: 0.8;
+}
+
+.page-library .level-5:hover ~ svg .stairs-link-5 {
+  opacity: 0.8;
+}
+
+.page-library .level-6:hover {
+  opacity: 0.8;
+}
+
+.page-library .level-6:hover ~ svg .stairs-link-6 {
+  opacity: 0.8;
+}
+
+.page-library__stairs-title {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  color: rgba(0, 0, 0, 0.59);
+  grid-gap: 18px;
+  position: absolute;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+}
+
+.page-library__stairs-title > img {
+  max-width: 25px;
+}
+
+.page-library__stairs-title img {
+  display: none;
+}
+
+.page-library__stairs-title.level-locked img {
+  display: block;
+}
+
+.page-library__stairs-title.level-1 {
+  bottom: 120px;
+  left: 100px;
+}
+
+.page-library__stairs-title.level-3 {
+  bottom: 380px;
+  left: 250px;
+}
+
+.page-library__stairs-title.level-5 {
+  bottom: 630px;
+  left: 430px;
+}
+
+.page-library__stairs-title.level-2 {
+  bottom: 120px;
+  right: 580px;
+}
+
+.page-library__stairs-title.level-4 {
+  bottom: 380px;
+  right: 300px;
+}
+
+.page-library__stairs-title.level-6 {
+  bottom: 630px;
+  right: 185px;
 }
 
 .page-library__weeks-list {
@@ -1047,6 +1471,8 @@ a {
   line-height: 24px;
   grid-gap: 50px;
   color: #373435;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 .page-library__week-item {
@@ -1081,6 +1507,7 @@ a {
   max-width: 325px;
   width: 100%;
   margin-right: 10px;
+  grid-gap: 5px;
 }
 
 .page-library__week-video-dwld {
@@ -1092,6 +1519,463 @@ a {
   max-width: 325px;
   width: 100%;
   margin-left: 10px;
+}
+
+.video-lessons__title {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  margin-bottom: 60px;
+}
+
+.video-lessons__list {
+  grid-gap: 30px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.video-lessons__item {
+  background: #ffffff;
+  -webkit-box-shadow: 0px 4px 10px rgba(79, 79, 79, 0.25);
+          box-shadow: 0px 4px 10px rgba(79, 79, 79, 0.25);
+  border-radius: 12px;
+  max-width: 210px;
+  width: 100%;
+  padding: 0 14px 28px;
+  position: relative;
+  min-height: 200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+}
+
+.video-lessons__item img {
+  width: 38px;
+  display: none;
+}
+
+.video-lessons__item-locked img {
+  display: block;
+}
+
+.video-lessons__item-locked .video-lessons__item-link {
+  display: none;
+}
+
+.video-lessons__item-locked .video-lessons__item-top {
+  background: #868686;
+}
+
+.video-lessons__item-top {
+  background: #51cd74;
+  -webkit-box-shadow: 0px 4px 10px rgba(79, 79, 79, 0.25);
+          box-shadow: 0px 4px 10px rgba(79, 79, 79, 0.25);
+  border-radius: 0px 12px;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  color: #ffffff;
+  padding: 20px;
+  display: inline-block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.video-lessons__item-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  color: #6f6f6f;
+  margin-bottom: 20px;
+}
+
+.video-lessons__item-link {
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 18px;
+  padding: 8px 30px;
+  color: #ffffff;
+  background: #ffcf00;
+  -webkit-box-shadow: 0px 4px 10px rgba(79, 79, 79, 0.25);
+          box-shadow: 0px 4px 10px rgba(79, 79, 79, 0.25);
+  border-radius: 8px;
+  width: 138px;
+}
+
+.books-lessons__books-list {
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  grid-gap: 30px;
+  margin-bottom: 80px;
+}
+
+.books-lessons__books-item {
+  max-width: 210px;
+  width: 100%;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 300px;
+  padding: 0 0px 30px;
+  background: #ffffff;
+  -webkit-box-shadow: 0px 4px 10px rgba(79, 79, 79, 0.25);
+          box-shadow: 0px 4px 10px rgba(79, 79, 79, 0.25);
+  border-radius: 12px;
+}
+
+.books-lessons__books-item-inner {
+  width: 100%;
+}
+
+.books-lessons__item-top {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  background: #51cd74;
+  -webkit-box-shadow: 0px 4px 10px rgba(79, 79, 79, 0.25);
+          box-shadow: 0px 4px 10px rgba(79, 79, 79, 0.25);
+  border-radius: 0px 12px;
+  color: #ffffff;
+  padding: 19px 8px;
+}
+
+.books-lessons__books-item-logo {
+  padding: 8px 14px;
+}
+
+.books-lessons__item-title {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  color: #6f6f6f;
+}
+
+.books-lessons__item-link {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  background: linear-gradient(88.27deg, #51cd74 6.32%, #299848 146.34%);
+  border-radius: 8px;
+  color: #ffffff;
+  padding: 13px 30px;
+}
+
+.books-lessons__audio-list {
+  grid-gap: 30px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.books-lessons__audio-unit {
+  background: #ffffff;
+  -webkit-box-shadow: 0px 4px 10px rgba(79, 79, 79, 0.25);
+          box-shadow: 0px 4px 10px rgba(79, 79, 79, 0.25);
+  border-radius: 12px;
+  padding: 25px;
+  position: relative;
+  max-width: 450px;
+  width: 100%;
+  height: 100%;
+}
+
+.books-lessons__audio-unit-title {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  color: #6f6f6f;
+  margin-bottom: 34px;
+}
+
+.books-lessons__audio-unit-top {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  background: #51cd74;
+  -webkit-box-shadow: 0px 4px 10px rgba(79, 79, 79, 0.25);
+          box-shadow: 0px 4px 10px rgba(79, 79, 79, 0.25);
+  border-radius: 0px 12px;
+  color: #ffffff;
+  padding: 20px;
+  display: inline-block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.books-lessons__audio-track {
+  margin-bottom: 20px;
+}
+
+.books-lessons__audio-track-title {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  color: #6f6f6f;
+  margin-bottom: 16px;
+}
+
+.books-lessons__audio-track-item {
+  width: 100%;
+  color: #6f6f6f;
+}
+
+.books-lessons__audio-track-item::-webkit-media-controls-panel {
+  background: #ffffff;
+  -webkit-box-shadow: 0px 4px 10px rgba(79, 79, 79, 0.25);
+          box-shadow: 0px 4px 10px rgba(79, 79, 79, 0.25);
+  border-radius: 12px;
+}
+
+.books-lessons__audio-track-item::-webkit-media-controls-play-button {
+  background-color: #ffcf00;
+  border-radius: 50%;
+  color: #ffcf00 !important;
+}
+
+.books-lessons__audio-track-item::-webkit-media-controls-current-time-display, .books-lessons__audio-track-item::-webkit-media-controls-time-remaining-display {
+  color: #6f6f6f;
+  font-weight: 600;
+}
+
+.books-lessons__audio-track-item-wrap {
+  background: #ffffff;
+  -webkit-box-shadow: 0px 4px 10px rgba(79, 79, 79, 0.25);
+          box-shadow: 0px 4px 10px rgba(79, 79, 79, 0.25);
+  border-radius: 12px;
+  height: 54px;
+}
+
+.books-lessons .audio-player {
+  height: 50px;
+  width: 100%;
+  border-radius: 12px;
+  height: 54px;
+  font-size: 0.75em;
+  overflow: hidden;
+  display: -ms-grid;
+  display: grid;
+}
+
+.books-lessons .audio-player .timeline {
+  max-width: 200px;
+  width: 100%;
+  height: 4px;
+  position: relative;
+  cursor: pointer;
+  background: #ffffff;
+  -webkit-box-shadow: inset 0px 4px 13px rgba(0, 0, 0, 0.25);
+          box-shadow: inset 0px 4px 13px rgba(0, 0, 0, 0.25);
+  border-radius: 12px;
+}
+
+.books-lessons .audio-player .timeline .progress {
+  background: #ffcf00;
+  border-radius: 12px;
+  width: 0%;
+  height: 100%;
+  -webkit-transition: 0.25s;
+  transition: 0.25s;
+}
+
+.books-lessons .audio-player .controls {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0 20px;
+  grid-gap: 5px;
+}
+
+.books-lessons .audio-player .controls .toggle-play.play {
+  cursor: pointer;
+  position: relative;
+  left: 0;
+  height: 0;
+  width: 0;
+  border: 7px solid #0000;
+  border-left: 13px solid #51cd74;
+}
+
+.books-lessons .audio-player .controls .toggle-play.play:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.books-lessons .audio-player .controls .toggle-play.pause {
+  height: 15px;
+  width: 20px;
+  cursor: pointer;
+  position: relative;
+}
+
+.books-lessons .audio-player .controls .toggle-play.pause:before {
+  position: absolute;
+  top: 0;
+  left: 0px;
+  background: #51cd74;
+  content: "";
+  height: 15px;
+  width: 3px;
+}
+
+.books-lessons .audio-player .controls .toggle-play.pause:after {
+  position: absolute;
+  top: 0;
+  right: 8px;
+  background: #51cd74;
+  content: "";
+  height: 15px;
+  width: 3px;
+}
+
+.books-lessons .audio-player .controls .toggle-play.pause:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.books-lessons .audio-player .controls .time {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 15px;
+  color: #6f6f6f;
+}
+
+.books-lessons .audio-player .controls .time > * {
+  padding: 2px;
+}
+
+.books-lessons .audio-player .controls .volume-container {
+  position: relative;
+  z-index: 2;
+}
+
+.books-lessons .audio-player .controls .volume-container .volume-button {
+  height: 26px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-left: 10px;
+  cursor: pointer;
+}
+
+.books-lessons .audio-player .controls .volume-container .volume-button .volume {
+  -webkit-transform: scale(1);
+          transform: scale(1);
+  color: #cbcbcb;
+  width: 18px;
+  height: 16px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.books-lessons .audio-player .controls .volume-container .volume-button .volume__on {
+  background-image: url("../images/books-videos/volume-on.svg");
+}
+
+.books-lessons .audio-player .controls .volume-container .volume-button .volume__off {
+  background-image: url("../images/books-videos/volume-off.svg");
+}
+
+.books-lessons .audio-player .controls .volume-container .volume-slider {
+  position: absolute;
+  left: 0px;
+  top: -2px;
+  z-index: -1;
+  width: 0;
+  height: 30px;
+  background: #fff;
+  -webkit-transition: 0.25s;
+  transition: 0.25s;
+  border-radius: 30px;
+}
+
+.books-lessons .audio-player .controls .volume-container .volume-slider__inner {
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 30px;
+  margin: 0 15px 0 5px;
+  background: #fff;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  visibility: hidden;
+  z-index: -1;
+}
+
+.books-lessons .audio-player .controls .volume-container .volume-slider .volume-percentage {
+  background: #373737;
+  height: 4px;
+  width: 100%;
+  border-radius: 12px;
+  position: relative;
+}
+
+.books-lessons .audio-player .controls .volume-container .volume-slider .volume-percentage__wrap {
+  cursor: pointer;
+  width: 100%;
+  background: #fff;
+  border-radius: 12px;
+  height: 4px;
+}
+
+.books-lessons .audio-player .controls .volume-container .volume-slider .volume-percentage::after {
+  content: "";
+  width: 11px;
+  height: 11px;
+  border-radius: 50%;
+  background-color: #373737;
+  position: absolute;
+  right: -3px;
+  top: -3px;
+  visibility: hidden;
+}
+
+.books-lessons .audio-player .controls .volume-container:hover .volume-slider {
+  left: -105px;
+  width: 100px;
+}
+
+.books-lessons .audio-player .controls .volume-container:hover .volume-slider__inner {
+  padding: 0 15px;
+  visibility: visible;
+  background: #cbcbcb;
+  z-index: 1;
+}
+
+.books-lessons .audio-player .controls .volume-container:hover .volume-slider .volume-percentage::after {
+  visibility: visible;
+}
+
+.books-lessons__audio-unit-locked .books-lessons__audio-unit-top {
+  background-color: #868686;
 }
 
 @media (max-width: 768px) {
@@ -1314,6 +2198,109 @@ a {
   }
   .hw-accordions .tab__item-pdf {
     margin: 10px 0;
+  }
+  .page-library__title img {
+    width: 40px;
+  }
+  .page-library__week-item {
+    max-width: 100%;
+  }
+  .page-library__week-video-play,
+  .page-library__week-video-dwld {
+    padding: 20px 10px;
+  }
+  .page-library__week-video-play img,
+  .page-library__week-video-dwld img {
+    width: 20px;
+  }
+  .page-library__stairs-title {
+    font-size: 10px;
+    line-height: 20px;
+    grid-gap: 10px;
+  }
+  .page-library__stairs-title > img {
+    width: 12px;
+  }
+  .page-library__stairs-title.level-1 {
+    bottom: 10px;
+    left: 100px;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: row-reverse;
+            flex-direction: row-reverse;
+  }
+  .page-library__stairs-title.level-2 {
+    bottom: 53px;
+    left: 147px;
+  }
+  .page-library__stairs-title.level-3 {
+    bottom: 105px;
+    left: 190px;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: row-reverse;
+            flex-direction: row-reverse;
+  }
+  .page-library__stairs-title.level-4 {
+    bottom: 195px;
+    left: 28px;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: row-reverse;
+            flex-direction: row-reverse;
+  }
+  .page-library__stairs-title.level-5 {
+    bottom: 243px;
+    left: 60px;
+  }
+  .page-library__stairs-title.level-6 {
+    bottom: 288px;
+    left: 210px;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: row-reverse;
+            flex-direction: row-reverse;
+  }
+  .video-lessons__item {
+    max-width: 100%;
+  }
+  .video-lessons__title {
+    margin-bottom: 30px;
+  }
+  .books-lessons__books-list {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .books-lessons__audio-unit {
+    max-width: 100%;
+  }
+  .profile__inner {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .profile__content {
+    max-width: 100%;
+  }
+  .profile__content-inner {
+    grid-gap: 20px;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .profile__img {
+    padding: 20px;
+  }
+  .modal-office-hours__content {
+    padding: 20px 10px 40px;
+  }
+  .modal-office-hours__list-item {
+    padding: 5px;
+  }
+  .modal-office-hours__list-item:nth-child(3) {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
 }
 /*# sourceMappingURL=main.css.map */
